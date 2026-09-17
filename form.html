@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <!--Forms in html-->
+    <form>
+        <label for="first-name">First Name:</label>
+        <input name="first-name" type="text" placeholder="Hilosthone" required> <br> <br>
+
+        <label for="last-name">Last Name:</label>
+        <input name="last-name" type="text" placeholder="John" required> <br> <br>
+
+        <label for="phone">Phone No.:</label>
+        <input type="number" name="phone" placeholder="+2349000000000000" required> <br> <br>
+
+        <label for="mail">Gmail:</label>
+        <input type="email" name="mail" placeholder="example@gmail.com" required> <br> <br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder=".............." required>
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender" id=""> Female
+        <input type="radio" name="gender" id=""> Others
+        <br> <br>
+
+        <label for="course">select your course</label>
+        <select name="course">
+            <option value="">Chose a course</option>
+            <option value="">Frontend</option>
+            <option value="">Backend</option>
+            <option value="">UI/UX design</option>
+            <option value="">Data Analyse</option>
+        </select>
+        <br> <br>
+
+        <label for="complaint">Launch your complain here:</label>
+        <textarea name="comaplaint" placeholder="Enter your complaint here..."></textarea>
+        <br> <br>
+
+        <input type="checkbox" name="agreement" id=""> I agree ................
+        <br> <br>
+
+        <label for="food">Select from the menu:</label>
+        <input type="checkbox" name="food" id=""> rice
+        <input type="checkbox" name="food" id=""> Beans
+        <input type="checkbox" name="food" id=""> Spag
+
+        <br> <br>
+
+        <button type="submit">submit</button>
+        
+    </form>
+</body>
+</html>
